@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+<link rel="stylesheet" href="css/main.css" type="text/css" >
+<title>JacknJim Health Club</title>
+</head>
+
+<body>
+<style>
+
+
+
+</style>
+
+<div class="container">
+    <header>
+    	<img src="images/banner.png" alt="Jack and Jim's Health Club" title="Jack and Jim's Health Club" >
+    </header>
+	<div>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="facilities.html">Facilities</a></li> 
+						<li><a href="programmes.html">Programmes</a></li>  
+						<li class="active"><a href="memberships.html">Memberships</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+			</div>                
+		</nav>
+	</div>
+    
+    <div class="sidebar">
+        <p>Follow us on:</p>
+        <img src="images/twitter.png" alt="Twitter" title="Twitter">
+        <img src="images/facebook.png" alt="Facebook" title="Facebook">
+    </div>
+    
+    <article class="newflex">
+        <div class="content">
+            <div class="col_left">
+                <article>
+                  <h1>Memberships</h1>
+                  <p>Membership is offered on individual/family basis and each member is allocated a unique ID number. Activities and usage of each member is logged and accessed periodically to aid in improving general health and fitness. Once the member is signed on, the usage cost is allocated on on-going basis. This can be bought as packages (collection of specific units in set combinations) or individual units. Thus each member has the choice to select and use the areas they wish, need or desire. Guests are charged a visiting fee at entry on the day and usage of any facilities during the visit. There are usual discounts for paying for the usage of the facilities in bulk – 6 month, 1 yr, 2 yrs. Payment for such schemes can be set up as direct debit, however opting out prematurely results in payment of full term as set up.</p><br />
+                  
+                </article>
+            </div>
+            <div class="col_right">
+                <article>
+                  <h1>Induction</h1>
+                  <p>At the induction, each member goes through a routine health check and the data is logged in the system. Attached with this scenario is a Fitness Calculator sheet. The Passive testing section is completed for any new member that joins the club irrespective of the age.</p>
+<p>Each member is assigned a health mentor to guide and assist them to use the facilities effectively. These mentors monitor the regular usage, and update the data for health and fitness through periodic checks every 6/12 months. The progress is logged and accessed through the system. During counselling sessions, the members are advised about any changes that could be made to their health plans.</p>
+
+                </article>
+            </div>
+    	</div>
+     </article>
+    <footer>
+       <p> &copy; JacknJill Health Club.  All rights reserved.</p>
+    </footer>
+</div> <!--End of container-->
+        <script>
+		/*Form Validation*/
+			function validateForm() {
+    			var email = document.getElementById("email").value;
+				var password = document.getElementById("password").value;
+    			if (email == ""){
+					alert("Email must be completed");
+					return false;
+				} else if(password == ""){
+					alert("Password must be completed");
+					return false;
+				}else{
+					alert("Login successful");
+					return true;
+				}
+			}
+			/*Clear contents*/
+			function clearForm(){
+				var email = document.forms["feedback"]["email"].value;
+				var password = document.forms["feedback"]["password"].value;
+				
+				email = "";
+				password = "";
+			}
+		</script>
+</body>
+</html>
