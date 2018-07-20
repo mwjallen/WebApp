@@ -1,2 +1,2 @@
 # WebApp
-# This is a demo project to demonstrate the different aspects of a web application which mixes their first year website created using HTML and CSS and in the second year the students provide additional functionality to the site by creating a web application with MySQL back end technologies and server-side scripting using PHP.
+# This is a project for HND students to demonstrate the different aspects of a web application which extends the first year website which was created using HTML and CSS.  The website is improved in the second year by creating a web application and adding additional functionlity using a MySQL Database backend and server-side scripting using PHP.
